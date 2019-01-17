@@ -21,8 +21,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### App Walkthough GIF
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
-<iframe src="https://giphy.com/embed/9r18hscblWBDi21JYz" width="246" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/9r18hscblWBDi21JYz">via GIPHY</a></p>
+<img src="https://giphy.com/embed/9r18hscblWBDi21JYz" width=250><br>
+
 
 ### Notes
 1. One of the biggest challenges I had with building this application was being able to effectively navigate the various screens on Xcode. There are a lot of
