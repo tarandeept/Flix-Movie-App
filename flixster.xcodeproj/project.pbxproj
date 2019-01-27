@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0D56F0ED05CCD33DC17DD67D /* Pods_flixster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4ADD591D6A886BC7465D92B /* Pods_flixster.framework */; };
 		6EFD8FEF8871869B0EC3F445 /* Pods_flixsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA54035F6FC48721B632A69 /* Pods_flixsterUITests.framework */; };
+		871F73AF21FD926700A89FF4 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871F73AE21FD926700A89FF4 /* MovieDetailsViewController.swift */; };
+		871F73B121FD9FA400A89FF4 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871F73B021FD9FA400A89FF4 /* MovieGridViewController.swift */; };
+		871F73B321FDAB0900A89FF4 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871F73B221FDAB0900A89FF4 /* MovieGridCell.swift */; };
 		87A4384321F01C0700451DBF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4384221F01C0700451DBF /* MovieCell.swift */; };
 		87FB29B721EF25F700BD8CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FB29B621EF25F700BD8CBA /* AppDelegate.swift */; };
 		87FB29BC21EF25F700BD8CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FB29BA21EF25F700BD8CBA /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		427121AD44EC9707DF473CCF /* Pods-flixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.release.xcconfig"; path = "Pods/Target Support Files/Pods-flixster/Pods-flixster.release.xcconfig"; sourceTree = "<group>"; };
 		7E2A8447D374755D99EC4474 /* Pods-flixsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-flixsterTests/Pods-flixsterTests.release.xcconfig"; sourceTree = "<group>"; };
+		871F73AE21FD926700A89FF4 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		871F73B021FD9FA400A89FF4 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		871F73B221FDAB0900A89FF4 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		87A4384221F01C0700451DBF /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		87FB29B321EF25F700BD8CBA /* flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FB29B621EF25F700BD8CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +139,9 @@
 				87FB29C221EF25F800BD8CBA /* Info.plist */,
 				87FB29E421EF280600BD8CBA /* MoviesViewController.swift */,
 				87A4384221F01C0700451DBF /* MovieCell.swift */,
+				871F73AE21FD926700A89FF4 /* MovieDetailsViewController.swift */,
+				871F73B021FD9FA400A89FF4 /* MovieGridViewController.swift */,
+				871F73B221FDAB0900A89FF4 /* MovieGridCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -396,8 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871F73B121FD9FA400A89FF4 /* MovieGridViewController.swift in Sources */,
+				871F73AF21FD926700A89FF4 /* MovieDetailsViewController.swift in Sources */,
 				87FB29B721EF25F700BD8CBA /* AppDelegate.swift in Sources */,
 				87FB29E521EF280600BD8CBA /* MoviesViewController.swift in Sources */,
+				871F73B321FDAB0900A89FF4 /* MovieGridCell.swift in Sources */,
 				87A4384321F01C0700451DBF /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
